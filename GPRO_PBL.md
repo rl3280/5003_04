@@ -60,7 +60,8 @@ For example,
 
 ## 4. Authenticity
 
-* **Real-World Connection:** Reflects real site-audit responsibilities under NYC energy codes and local building performance standards (e.g., [Local Law 97](https://www.nyc.gov/site/buildings/codes/ll97-greenhouse-gas-emissions-reductions.page)). Students evaluate real buildings in their communities rather than textbook scenarios.
+* **Real-World Connection:** Reflects real site-audit responsibilities under NYC energy codes and local building performance standards (e.g., [Local Law 97](https://www.nyc.gov/site/buildings/codes/ll97-greenhouse-gas-emissions-reductions.page)). CHAPTER 3 MAINTENANCE OF BUILDINGS §28-308.1 Definitions.
+* Students evaluate real buildings in their communities rather than textbook scenarios.
 * **Trade Context:** Directly connects mathematical calculations to trade locals, framing math as an essential tool for union apprentices and journeymen.
 
 ---

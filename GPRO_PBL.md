@@ -36,12 +36,12 @@ Students move through a structured 3-stage inquiry process:
 
 ```
 [ Stage 1: Field Scouting ]  ──►  [ Stage 2: Trade Retrofit Analysis ]  ──►  [ Stage 3: Green Math Calculation ]
-  • Inspect exterior envelope       • Select 3 GPRO trade retrofits          • Apply NYC grid emission factors
-  • Document mechanical/electrical  • Map solutions to trade jurisdictions    • Quantify annual CO₂ reduction
+  • Inspect exterior envelope       • Select 3 GPRO trade retrofits           • Apply NYC grid emission factors
+  • Document materials/sites        • Sketch solutions to trade locals        • Quantify annual CO₂ reduction
 
 ```
 
-1. **Observe:** Inspect a local building (residential or commercial) on a daily walk or near the training site, identifying physical signs of energy waste (e.g., single-pane windows, uninsulated brick, exterior boiler vents, outdated lighting).
+1. **Observe:** Inspect a local building (residential or commercial), or fixtures in public spaces like the MTA on your daily commute, around NEW, or your neighborhood, identifying physical signs of energy waste (e.g., single-pane windows, uninsulated brick, exterior boiler vents, outdated lighting).
 2. **Investigate:** Reference GPRO training materials to determine the specific trade interventions required (Carpentry, Electrical, Plumbing/HVAC) to eliminate the waste.
 3. **Quantify:** Model baseline energy use versus post-retrofit savings using standardized conversion formulas.
 

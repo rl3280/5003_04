@@ -1,0 +1,205 @@
+:root {
+  --primary-color: #2e7d32;
+  --primary-dark: #1b5e20;
+  --bg-color: #f4f6f8;
+  --card-bg: #ffffff;
+  --text-main: #333333;
+  --text-muted: #666666;
+  --border-color: #e0e0e0;
+  --radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  line-height: 1.5;
+  padding-bottom: 80px;
+}
+
+/* Header */
+.app-header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 16px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.app-header h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.app-header p {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  margin: 16px auto;
+  padding: 0 12px;
+}
+
+/* Cards */
+.card {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: var(--primary-dark);
+  color: white;
+  padding: 12px 16px;
+}
+
+.card-header h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+/* Form Items */
+.item-group {
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.item-group:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.item-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.item-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+/* Status Radio Options (Touch Friendly) */
+.status-options {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.radio-label {
+  flex: 1;
+  text-align: center;
+  padding: 8px 4px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  background-color: #fafafa;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.radio-label input[type="radio"] {
+  accent-color: var(--primary-color);
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  height: 60px;
+  padding: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  resize: vertical;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+/* Sticky Action Bar */
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 12px 16px;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 24px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 400px;
+}
+
+.btn:hover {
+  background-color: var(--primary-dark);
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background-color: white;
+    padding-bottom: 0;
+  }
+  .app-header {
+    position: static;
+    box-shadow: none;
+    color: black;
+    background: none;
+    padding: 0 0 16px 0;
+    border-bottom: 2px solid #000;
+  }
+  .app-footer {
+    display: none;
+  }
+  .card {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+  }
+  .card-header {
+    background: #eee;
+    color: black;
+  }
+}

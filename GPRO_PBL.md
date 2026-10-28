@@ -9,7 +9,8 @@ This curriculum bridges the [**PBL Gold Standards**](https://www.pblworks.org/go
 * **Target Audience:** Nontraditional Employment for Women (NEW) Students / Pre-Apprenticeship Trades Trainees
 * **Core Subject:** MC3 Unit 8: Green Building & GPRO Fundamentals of Building Green
 * **Duration:** 1 Week (Fieldwork + Padlet Lab Synthesis)
-* **Format:** Field Pairs | **Platform:**
+* **Format:** Field Pairs
+* **Platform:**
   * [Class Padlet Board](https://padlet.com/teacherscollege120/calculating-carbon-footprint-reductions-d2c19gjryvxplllh)
   * [Student Post](https://padlet.com/teacherscollege120/calculating-carbon-footprint-reductions-d2c19gjryvxplllh/wish/kxodWG9GoONEQgP7)
   * [Student Green Calculations](https://padlet.com/teacherscollege120/calculating-carbon-footprint-reductions-d2c19gjryvxplllh/wish/kxodWG9GoONEQgP7)

@@ -18,9 +18,9 @@ This curriculum bridges the **PBL Gold Standards** with the **NEW BCP/NAN *Green
 
 ## 1. Key Knowledge, Understanding, and Success Skills
 
-* **Key Knowledge (GPRO & MC3):** Applying building envelope strategies, HVAC/heat pump transitions, lighting efficiency, and commissioning concepts to reduce building emissions.
+* **Key Knowledge (GPRO & MC3):** Applying building envelope strategies, energy efficiency, and retrofit concepts to reduce building emissions.
 * **Key Understanding:** Construction trades directly impact building operational energy use, climate resilience, and urban carbon footprint reduction.
-* **Success Skills:** Critical observation, trade-based quantitative reasoning ("Green Math"), digital site documentation, and collaborative trade communication.
+* **Success Skills:** Critical observation, trade-based quantitative reasoning (*Green Math*), digital site documentation, and collaborative trade communication.
 
 ---
 

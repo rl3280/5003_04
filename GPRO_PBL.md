@@ -1,4 +1,4 @@
-This curriculum bridges the [**PBL Gold Standards**](https://www.pblworks.org/gold-standard/pbl-project-design) with [**GPRO**](https://www.urbangreencouncil.org/what-we-do/educating-building-professionals/gpro)  and [NEW's](https://www.new-nyc.org) **Miro/Padlet *Green Math* Post activity**.
+This curriculum bridges the [**PBL Gold Standards**](https://www.pblworks.org/gold-standard/pbl-project-design) with [**GPRO**](https://www.urbangreencouncil.org/what-we-do/educating-building-professionals/gpro)  and [**NEW**'s](https://www.new-nyc.org) **Miro/Padlet *Green Math* Post activity**.
 
 ---
 

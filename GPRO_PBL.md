@@ -46,6 +46,16 @@ Students move through a structured 3-stage inquiry process:
 2. **Investigate:** Reference GPRO training materials to determine the specific trade interventions required (Carpentry, Electrical, Plumbing/HVAC, glaziers, concrete, ...) to eliminate the waste.
 3. **Quantify:** Model baseline energy use versus post-retrofit savings using standardized conversion formulas.
 
+For example,
+
+1. **Building Location & Type:** State the address/neighborhood and building type (e.g., 4-story brick multi-family, commercial storefront, older residential house).
+2. **Visual Inspection (Spotting "Dirty Energy"):** Look for energy-wasting features:
+* *Building Envelope:* Single-pane windows, drafts around doors, uninsulated brick/walls, leaky AC window units.  ──►  Add continuous exterior insulation, seal air leaks, upgrade to high-performance double/triple-pane windows.
+
+* *Lighting/Electrical:* Old incandescent or halogen lighting left on in public corridors.  ──►   Convert all fixtures to high-efficiency LEDs and install occupancy sensors or smart building controls.
+
+* *Mechanical/HVAC:* Outdated boilers venting heat, old air conditioning compressors, or lack of smart thermostats.  ──►  Replace fossil-fuel oil/gas boilers with high-efficiency heat pumps or energy-efficient water systems.    
+
 ---
 
 ## 4. Authenticity

@@ -140,3 +140,6 @@ Building Address: [Insert Neighborhood / Address]
 | **GPRO Trade Retrofits** | Mentions generic fixes without clear trade connections. | Identifies 3 specific retrofits connected to relevant skilled trade disciplines. | Clear, highly detailed trade-specific retrofits mapped to appropriate trade jurisdictions and installation practices. |
 | **"Green Math" Accuracy** | Calculations are incomplete or miss conversion factors. | Accurately calculates kWh savings and applies the CO₂ emission factor. | Step-by-step whiteboard math is clear, fully accurate, correctly converted to metric tons of CO₂, and verified through peer review. |
 | **Public Artifacts** | Video or whiteboard photo is missing or unclear. | Complete Padlet post featuring clear video walkthrough, retrofit plan, and legible whiteboard math photo. | Professional-quality site video with articulate trade commentary, accompanied by an exceptional whiteboard presentation. |
+
+
+[*dérive*](https://teaching.ellenmueller.com/walking/files/2021/05/DebordTheoryOfTheDerive.pdf)

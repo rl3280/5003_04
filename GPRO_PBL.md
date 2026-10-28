@@ -43,7 +43,7 @@ Students move through a structured 3-stage inquiry process:
 ```
 
 1. **Observe:** Inspect a local building (residential or commercial), or fixtures in public spaces like the MTA on your daily commute, around NEW, or your neighborhood, identifying physical signs of energy waste (e.g., single-pane windows, uninsulated brick, exterior boiler vents, outdated lighting).
-2. **Investigate:** Reference GPRO training materials to determine the specific trade interventions required (Carpentry, Electrical, Plumbing/HVAC) to eliminate the waste.
+2. **Investigate:** Reference GPRO training materials to determine the specific trade interventions required (Carpentry, Electrical, Plumbing/HVAC, glaziers, concrete, ...) to eliminate the waste.
 3. **Quantify:** Model baseline energy use versus post-retrofit savings using standardized conversion formulas.
 
 ---

@@ -37,8 +37,8 @@ Students move through a structured 3-stage inquiry process:
 
 ```
 [ Stage 1: Field Scouting ]  ──►  [ Stage 2: Trade Retrofit Analysis ]  ──►  [ Stage 3: Green Math Calculation ]
-  • Inspect exterior envelope       • Select 3 GPRO trade retrofits           • Apply NYC grid emission factors
-  • Document materials/sites        • Sketch solutions to trade locals        • Quantify annual CO₂ reduction
+  • Inspect exterior envelope       • Select 3 GPRO trade retrofits            • Apply NYC grid emission factors
+  • Document materials/sites        • Sketch solutions to trade locals         • Quantify annual CO₂ reduction
 
 ```
 

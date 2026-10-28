@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEED v4 Retrofit Field Checklist</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="app-header">
+    <h1>LEED v4 Retrofit Field Audit</h1>
+    <p>Student Field Trip Checklist</p>
+  </header>
+
+  <main class="container">
+    <form id="audit-form">
+
+      <!-- Category 1 -->
+      <section class="card">
+        <div class="card-header">
+          <h2>1. Location & Transportation (LT)</h2>
+        </div>
+        <div class="card-body">
+          
+          <div class="item-group">
+            <label class="item-title">Alternative Commuting</label>
+            <p class="item-desc">Observe bike racks, EV charging stations, or nearby transit stops.</p>
+            <div class="status-options">
+              <label class="radio-label"><input type="radio" name="lt_1" value="yes"> Yes</label>
+              <label class="radio-label"><input type="radio" name="lt_1" value="no"> No</label>
+              <label class="radio-label"><input type="radio" name="lt_1" value="na"> N/A</label>
+            </div>
+            <textarea placeholder="Add observations or photo notes..."></textarea>
+          </div>
+
+          <div class="item-group">
+            <label class="item-title">Surrounding Density & Site Access</label>
+            <p class="item-desc">Observe walkability to nearby services, restaurants, or residential areas.</p>
+            <div class="status-options">
+              <label class="radio-label"><input type="radio" name="lt_2" value="yes"> Yes</label>
+              <label class="radio-label"><input type="radio" name="lt_2" value="no"> No</label>
+              <label class="radio-label"><input type="radio" name="lt_2" value="na"> N/A</label>
+            </div>
+            <textarea placeholder="Add observations or photo notes..."></textarea>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Category 2 -->
+      <section class="card">
+        <div class="card-header">
+          <h2>2. Sustainable Sites (SS)</h2>
+        </div>
+        <div class="card-body">
+
+          <div class="item-group">
+            <label class="item-title">Heat Island Reduction</label>
+            <p class="item-desc">Observe high-reflectance roof materials, green roofs, or shaded hardscapes.</p>
+            <div class="status-options">
+              <label class="radio-label"><input type="radio" name="ss_1" value="yes"> Yes</label>
+              <label class="radio-label"><input type="radio" name="ss_1" value="no"> No</label>
+              <label class="radio-label"><input type="radio" name="ss_1" value="na"> N/A</label>
+            </div>
+            <textarea placeholder="Add observations or photo notes..."></textarea>
+          </div>
+
+          <div class="item-group">
+            <label class="item-title">Light Pollution Reduction</label>
+            <p class="item-desc">Observe shielded exterior light fixtures pointing downward.</p>
+            <div class="status-options">
+              <label class="radio-label"><input type="radio" name="ss_2" value="yes"> Yes</label>
+              <label class="radio-label"><input type="radio" name="ss_2" value="no"> No</label>
+              <label class="radio-label"><input type="radio" name="ss_2" value="na"> N/A</label>
+            </div>
+            <textarea placeholder="Add observations or photo notes..."></textarea>
+          </div>
+
+          <div class="item-group">
+            <label class="item-title">Rainwater Management</label>
+            <p class="item-desc">Observe permeable pavers, rain gardens, bioswales, or cisterns on-site.</p>
+            <div class="status-options">
+              <label class="radio-label"><input type="radio" name="ss_3" value="yes"> Yes</label>
+              <label class="radio-label"><input type="radio" name="ss_3" value="no"> No</label>
+              <label class="radio-label"><input type="radio" name="ss_3" value="na"> N/A</label>
+            </div>
+            <textarea placeholder="Add observations or photo notes..."></textarea>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Category 3 -->
+      <section class="card">
+        <div class="card-header">
+          <h2>3. Water Efficiency (WE)</h2>
+        </div>
+        <div class="card-body">
+
+          <div class="item-group">
+            <label class="item-title">Indoor Water Use (Fixtures)</label>
+            <p class="item-desc">Observe low-flow aerators on faucets, dual-flush toilets, or WaterSense labels.</p>
+            <div class="status-options">
+              <label class="radio-label"><input type="radio" name="we_1" value="yes"> Yes</label>
+              <label class="radio-label"><input type="radio" name="we_1" value="no"> No</label>
+              <label class="radio-label"><input type="radio" name="we_1" value="na"> N/A</label>
+            </div>
+            <textarea placeholder="Add observations or photo notes..."></textarea>
+          </div>
+
+          <div class="item-group">
+            <label class="item-title">Metering & Outdoor Water Use</label>
+            <p class="item-desc">Observe smart irrigation controls, drip systems, or native landscaping.</p>
+            <div class="status-options">
+              <label class="radio-label"><input type="radio" name="we_2" value="yes"> Yes</label>
+              <label class="radio-label"><input type="radio" name="we_2" value="no"> No</label>
+              <label class="radio-label"><input type="radio" name="we_2" value="na"> N/A</label>
+            </div>
+            <textarea placeholder="Add observations or photo notes..."></textarea>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Category 4 -->
+      <section class="card">
+        <div class="card-header">
+          <h2>4. Energy & Atmosphere (EA)</h2>
+        </div>
+        <div class="card-body">
+
+          <div class="item-group">
+            <label class="item-title">Existing System Retrofits</label>
+            <p class="item-desc">Observe high-efficiency HVAC units, retrofitted LED lighting, occupancy sensors.</p>
+            <div class="status-options">
+              <label class="radio-label"><input type="radio" name="ea_1" value="yes"> Yes</label>
+              <label class="radio-label"><input type="radio" name="ea_1" value="no"> No</label>
+              <label class="radio-label"><input type="radio" name="ea_1" value="na"> N/A</label>
+            </div>
+            <textarea placeholder="Add observations or photo notes..."></textarea>
+          </div>
+
+          <div class="item-group">
+            <label class="item-title">Renewable Energy On-Site</label>
+            <p class="item-desc">Observe rooftop solar PV arrays, solar water heating, or heat pumps.</p>
+            <div class="status-options">
+              <label class="radio-label"><input type="radio" name="ea_2" value="yes"> Yes</label>
+              <label class="radio-label"><input type="radio" name="ea_2" value="no"> No</label>
+              <label class="radio-label"><input type="radio" name="ea_2" value="na"> N/A</label>
+            </div>
+            <textarea placeholder="Add observations or photo notes..."></textarea>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Category 5 -->
+      <section class="card">
+        <div class="card-header">
+          <h2>5. Materials & Resources (MR)</h2>
+        </div>
+        <div class="card-body">
+
+          <div class="item-group">
+            <label class="item-title">Waste Management & Recycling</label>
+            <p class="item-desc">Observe centralized multi-stream recycling stations (paper, glass, compost, e-waste).</p>
+            <div class="status-options">
+              <label class="radio-label"><input type="radio" name="mr_1" value="yes"> Yes</label>
+              <label class="radio-label"><input type="radio" name="mr_1" value="no"> No</label>
+              <label class="radio-label"><input type="radio" name="mr_1" value="na"> N/A</label>
+            </div>
+            <textarea placeholder="Add observations or photo notes..."></textarea>
+          </div>
+
+          <div class="item-group">
+            <label class="item-title">Reused / Sustainable Materials</label>
+            <p class="item-desc">Observe salvaged interior elements, rapidly renewable flooring, or low-impact finishes.</p>
+            <div class="status-options">
+              <label class="radio-label"><input type="radio" name="mr_2" value="yes"> Yes</label>
+              <label class="radio-label"><input type="radio" name="mr_2" value="no"> No</label>
+              <label class="radio-label"><input type="radio" name="mr_2" value="na"> N/A</label>
+            </div>
+            <textarea placeholder="Add observations or photo notes..."></textarea>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Category 6 -->
+      <section class="card">
+        <div class="card-header">
+          <h2>6. Indoor Environmental Quality (EQ)</h2>
+        </div>
+        <div class="card-body">
+
+          <div class="item-group">
+            <label class="item-title">Air Quality & Ventilation</label>
+            <p class="item-desc">Observe high-efficiency MERV air filters, CO2 sensors, or entryway walk-off mats.</p>
+            <div class="status-options">
+              <label class="radio-label"><input type="radio" name="eq_1" value="yes"> Yes</label>
+              <label class="radio-label"><input type="radio" name="eq_1" value="no"> No</label>
+              <label class="radio-label"><input type="radio" name="eq_1" value="na"> N/A</label>
+            </div>
+            <textarea placeholder="Add observations or photo notes..."></textarea>
+          </div>
+
+          <div class="item-group">
+            <label class="item-title">Daylighting & Views</label>
+            <p class="item-desc">Observe direct lines of sight to outdoor views and glare controls (blinds/shades).</p>
+            <div class="status-options">
+              <label class="radio-label"><input type="radio" name="eq_2" value="yes"> Yes</label>
+              <label class="radio-label"><input type="radio" name="eq_2" value="no"> No</label>
+              <label class="radio-label"><input type="radio" name="eq_2" value="na"> N/A</label>
+            </div>
+            <textarea placeholder="Add observations or photo notes..."></textarea>
+          </div>
+
+        </div>
+      </section>
+
+    </form>
+  </main>
+
+  <footer class="app-footer">
+    <button type="button" class="btn" onclick="window.print()">Export / Print Audit</button>
+  </footer>
+
+</body>
+</html>

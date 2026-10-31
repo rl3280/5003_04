@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="200px" height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<polygon fill="#CA992C" points="35.25,26.666 35.25,130.166 139.875,130.166 139.875,132.416 33,132.416 33,26.666 "/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="33" y="21.074" width="127.708" height="155.926"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-linejoin="bevel" stroke-miterlimit="2.613" d="
+		M44.028,42.271l-7.37,0.284 M36.658,42.271v0.284 M44.028,55.312l-7.37-0.284 M36.658,55.312v-0.284 M44.028,108.093l-7.369-0.283
+		 M44.028,95.054l-7.369,0.283 M36.658,95.054l0.001,0.283 M36.658,108.093l0.001-0.283 M57.322,129.041l-0.284-7.37
+		 M57.038,129.041h0.284 M69.794,129.041l0.284-7.37 M70.078,129.041h-0.284 M111.239,129.041l-0.284-7.37 M110.955,129.041h0.284
+		 M123.711,129.041h0.283 M123.994,121.671l-0.283,7.37 M144.375,129.041V21.324 M144.375,21.324H36.658 M144.375,129.041h-20.381
+		 M110.955,121.671h13.039 M110.955,129.041H70.078 M70.078,121.671h-13.04 M57.038,129.041h-20.38 M36.658,42.271V21.324
+		 M44.028,42.271v13.04 M36.658,95.054V55.312 M44.028,108.093V95.054 M36.658,129.041v-20.948"/>
+</g>
+<rect x="112.875" y="124.541" fill="#A7A9AC" width="9" height="4.5"/>
+<rect x="58.875" y="124.541" fill="#A7A9AC" width="9" height="4.5"/>
+<rect x="36.375" y="97.541" fill="#A7A9AC" width="4.5" height="9"/>
+<rect x="36.375" y="43.541" fill="#A6A8AB" width="4.5" height="9"/>
+<rect x="36.375" y="147.324" fill="#A6A8AB" width="18" height="9"/>
+<rect x="36.375" y="165.324" fill="#CA992C" width="36" height="9"/>
+<text transform="matrix(1 0 0 1 81.375 155.9043)" font-family="'AGaramondPro-Regular'" font-size="12">Ne</text>
+<text transform="matrix(1 0 0 1 95.1631 155.9043)" font-family="'AGaramondPro-Regular'" font-size="12">odyne magnet</text>
+<g>
+	<defs>
+		<rect id="SVGID_3_" x="33" y="21.074" width="127.708" height="155.926"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_4_)">
+		<text transform="matrix(1 0 0 1 81.375 173.9043)" font-family="'AGaramondPro-Regular'" font-size="12">Conductive tap</text>
+	</g>
+	<g clip-path="url(#SVGID_4_)">
+		<text transform="matrix(1 0 0 1 153.1475 173.9043)" font-family="'AGaramondPro-Regular'" font-size="12">e</text>
+	</g>
+</g>
+</svg>

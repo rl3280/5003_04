@@ -1,33 +1,27 @@
-﻿configuration_id,image_file,topology,Branch_1,Branch_1,Branch_2,Branch_2,Green_LED output,Yellow_LED output,current lines
-pic-01,parallel__green-10ohm.jpg,single,Green LED,10 ohm,,,high,,
-pic-02,parallel__green-10ohm__yellow-10ohm.jpg,parallel,Green LED,10 ohm,Yellow LED,10 ohm,medium-high,high,
-pic-03,parallel__green-10ohm__yellow-100ohm.jpg,parallel,Green LED,10 ohm,Yellow LED,100 ohm,medium-high,medium-high,
-pic-04,parallel__green-10ohm__yellow-1000ohm.jpg,parallel,Green LED,10 ohm,Yellow LED,1000 ohm,medium-high,medium-low,
-pic-05,parallel__green-10ohm__yellow-10000ohm.jpg,parallel,Green LED,10 ohm,Yellow LED,10000 ohm,medium-high,low,
-pic-06,parallel__green-100ohm__yellow-1000ohm.jpg,parallel,Green LED,100 ohm,Yellow LED,1000 ohm,medium-high,medium,
-pic-07,parallel__green-1000ohm__yellow-1000ohm.jpg,parallel,Green LED,1000 ohm,Yellow LED,1000 ohm,medium ,medium,
-pic-08,parallel__green-1000ohm__yellow-10000ohm.jpg,parallel,Green LED,1000 ohm,Yellow LED,10000 ohm,medium,low,
-pic-09,parallel__green-1000ohm__yellow-10ohm.jpg,parallel,Green LED,1000 ohm,Yellow LED,10 ohm,low,high,
-pic-10,parallel__green-10000ohm__yellow-1000ohm.jpg,parallel,Green LED,10000 ohm,Yellow LED,1000 ohm,medium-low,medium-high,
-pic-11,parallel__green-10000ohm__yellow-1000ohm-current.jpg,parallel,Green LED,10000 ohm,Yellow LED,1000 ohm,medium-low,medium-high,yes
-pic-12,parallel__green-10000ohm__yellow-10000ohm.jpg,parallel,Green LED,10000 ohm,Yellow LED,10000 ohm,off,low,
-pic-13,parallel__green-10000ohm__yellow-100000ohm.jpg,parallel,Green LED,10000 ohm,Yellow LED,100000 ohm,low,medium,
-pic-14,resistor-disconnect.jpg,,,,,,,,
-pic-15,series.jpg,series,Green LED,10 ohm,Yellow LED,,off,off,
-pic-16,series-current.jpg,series,Green LED,10 ohm,Yellow LED,,off,off,yes
-pic-17,simple__yellow-10000ohm.jpg,single,,,Yellow LED,10000 ohm,,medium-low,
-pic-18,simple__yellow-10000ohm-current.jpg,single,,,Yellow LED,10000 ohm,,medium-low,yes
-pic-19,simple__yellow-100000ohm.jpg,single,,,Yellow LED,100000 ohm,,low,
-pic-20,simple__yellow-100000ohm-current.jpg,single,,,Yellow LED,100000 ohm,,low,yes
-pic-21,single__yellow-10ohm.jpg,single,,,Yellow LED,10 ohm,,high,
-pic-22,single__yellow-10ohm-polarity-correct.jpg,single,,,Yellow LED,10 ohm,,high,
-pic-23,single__yellow-10ohm-polarity-incorrect.jpg,single,,,Yellow LED,10 ohm,,off,
-pic-24,single__yellow-10ohm-polarity-incorrect-current.jpg,single,,,Yellow LED,11 ohm,,off,yes
-pic-25,single__yellow-100ohm.jpg,single,,,Yellow LED,100 ohm,,medium-high,
-pic-26,single__yellow-1000ohm.jpg,single,,,Yellow LED,1000 ohm,,medium ,
-pic-27,single__yellow-10000ohm.jpg,single,,,Yellow LED,10000 ohm,,medium-low,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,parallel__green-10000ohm__yellow-100000ohm.jpg,parallel,Green LED,10000 ohm,Yellow LED,100000 ohm,,,
+﻿configuration_id,image_file,topology,branch_1_led,branch_1_resistor_ohms,branch_1_status,branch_2_led,branch_2_resistor_ohms,branch_2_status,green_led_observed_brightness,yellow_led_observed_brightness,electron_flow_overlay,principle_tested,comparison_group,baseline_id,change_description
+pic-01,parallel__green-10ohm__yellow-10ohm.jpg,parallel,Green,10,connected,Yellow,10,connected,medium-high,high,absent,inverse_relation_between_brightness_and_resistance,parallel_yellow_green_resistance_variance,pic-01,baseline
+pic-02,parallel__green-10ohm__yellow-10ohm-disconnect.jpg,parallel,Green,10,connected,Yellow,10,disconnected,high,off,absent,inverse_relation_between_brightness_and_resistance,parallel_yellow_green_resistance_variance,pic-01,the Yellow resistor is disconnected
+pic-03,parallel__green-10ohm__yellow-100ohm.jpg,parallel,Green,10,connected,Yellow,100,connected,medium-high,medium-high,absent,inverse_relation_between_brightness_and_resistance,parallel_yellow_green_resistance_variance,pic-01,Yellow resistor goes from 10 ohm to 100 ohm
+pic-04,parallel__green-10ohm__yellow-1000ohm.jpg,parallel,Green,10,connected,Yellow,1000,connected,medium-high,medium-low,absent,inverse_relation_between_brightness_and_resistance,parallel_yellow_green_resistance_variance,pic-01,Yellow resistor goes from 10 ohm to 1000 ohm
+pic-05,parallel__green-10ohm__yellow-10000ohm.jpg,parallel,Green,10,connected,Yellow,10000,connected,medium-high,low,absent,inverse_relation_between_brightness_and_resistance,parallel_yellow_green_resistance_variance,pic-01,Yellow resistor goes from 10 ohm to 10000 ohm
+pic-06,parallel__green-100ohm__yellow-1000ohm.jpg,parallel,Green,100,connected,Yellow,1000,connected,medium-high,medium,absent,relative_led_brightness_between_green_led_and_yellow_led,parallel_yellow_green_resistance_variance,pic-07,Green resistor goes from 1000 ohms to 100
+pic-07,parallel__green-1000ohm__yellow-1000ohm.jpg,parallel,Green,1000,connected,Yellow,1000,connected,medium,medium,absent,relative_led_brightness_between_green_led_and_yellow_led,parallel_yellow_green_resistance_variance,pic-07,baseline
+pic-08,parallel__green-1000ohm__yellow-10000ohm.jpg,parallel,Green,1000,connected,Yellow,10000,connected,medium,low,absent,relative_led_brightness_between_green_led_and_yellow_led,parallel_yellow_green_resistance_variance,pic-07,Yellow resistor goes from 1000 to 10000
+pic-09,parallel__green-10000ohm__yellow-10ohm.jpg,parallel,Green,10000,connected,Yellow,10,connected,low,high,absent,relative_led_brightness_between_green_led_and_yellow_led,parallel_yellow_green_resistance_variance,pic-07,"Green resistor goes from 1000 to 10000, Yellow resistor goes from 1000 to 10"
+pic-10,parallel__green-10000ohm__yellow-100ohm.jpg,parallel,Green,10000,connected,Yellow,100,connected,medium-low,medium,absent,inverse_relation_between_brightness_and_resistance,parallel_yellow_green_resistance_variance,pic-10,baseline
+pic-11,parallel__green-10000ohm__yellow-1000ohm.jpg,parallel,Green,10000,connected,Yellow,1000,connected,medium-low,medium-high,absent,inverse_relation_between_brightness_and_resistance,parallel_yellow_green_resistance_variance,pic-10,Yellow resistor goes from 100 ohm to 1000 ohm
+pic-12,parallel__green-10000ohm__yellow-1000ohm-current.jpg,parallel,Green,10000,connected,Yellow,1000,connected,medium-low,medium-high,present,inverse_relation_between_brightness_and_resistance,parallel_yellow_green_resistance_variance,pic-10,"Yellow resistor goes from 100 ohm to 1000 ohm, with electron flow overlay"
+pic-13,parallel__green-10000ohm__yellow-10000ohm.jpg,parallel,Green,10000,connected,Yellow,10000,connected,low,medium,absent,inverse_relation_between_brightness_and_resistance,parallel_yellow_green_resistance_variance,pic-10,Yellow resistor goes from 1000 ohm to 100000 ohm
+pic-14,series.jpg,series,Green,10,connected,Yellow,,connected,off,off,absent,two_series_LEDs_unlit_in_this_setup,series,pic-14,baseline
+pic-15,series-current.jpg,series,Green,10,connected,Yellow,,connected,off,off,present,two_series_LEDs_unlit_in_this_setup,series,pic-14,"unchanged, with electron flow overlay"
+pic-16,simple__yellow-10000ohm.jpg,single,,,not_present,Yellow,10000,connected,not_present,medium-low,absent,inverse_relation_between_brightness_and_resistance,single_yellow_resistance_sweep,pic-20,Yellow resistor goes from 10 ohm to 10000 ohm
+pic-17,simple__yellow-10000ohm-current.jpg,single,,,not_present,Yellow,10000,connected,not_present,medium-low,present,inverse_relation_between_brightness_and_resistance,single_yellow_resistance_sweep,pic-20,"Yellow resistor goes from 10 ohm to 10000 ohm, with electron flow overlay"
+pic-18,simple__yellow-100000ohm.jpg,single,,,not_present,Yellow,100000,connected,not_present,low,absent,inverse_relation_between_brightness_and_resistance,single_yellow_resistance_sweep,pic-20,Yellow resistor goes from 10 ohm to 100000 ohm
+pic-19,simple__yellow-100000ohm-current.jpg,single,,,not_present,Yellow,100000,connected,not_present,low,present,inverse_relation_between_brightness_and_resistance,single_yellow_resistance_sweep,pic-20,"Yellow resistor goes from 10 ohm to 100000 ohm, with electron flow overlay"
+pic-20,single__yellow-10ohm.jpg,single,,,not_present,Yellow,10,connected,not_present,high,absent,LED_polarity,single_yellow_LED_polarity_test,pic-20,baseline
+pic-21,single__yellow-10ohm-polarity-incorrect.jpg,single,,,not_present,Yellow,10,connected,not_present,off,absent,LED_polarity,single_yellow_LED_polarity_test,pic-20,LED is not connected correctly
+pic-22,single__yellow-10ohm-polarity-incorrect-current.jpg,single,,,not_present,Yellow,10,connected,not_present,off,present,LED_polarity,single_yellow_LED_polarity_test,pic-20,"LED is not connected correctly, with overlay"
+pic-23,resistor-disconnect.jpg,single,,,not_present,Yellow,10,disconnected,not_present,off,absent,broken_circuit,single_yellow_resistance_sweep,pic-20,"no change, resistor disconnected"
+pic-24,single__yellow-100ohm-trial2.jpg,single,,,not_present,Yellow,100,connected,not_present,medium-high,absent,inverse_relation_between_brightness_and_resistance,single_yellow_resistance_sweep,pic-26,Yellow resistor goes from 10000 ohm to 100 ohm
+pic-25,single__yellow-1000ohm-trial2.jpg,single,,,not_present,Yellow,1000,connected,not_present,medium,absent,inverse_relation_between_brightness_and_resistance,single_yellow_resistance_sweep,pic-26,Yellow resistor goes from 10000 ohm to 1000 ohm
+pic-26,single__yellow-10000ohm-trial2.jpg,single,,,not_present,Yellow,10000,connected,not_present,medium-low,absent,inverse_relation_between_brightness_and_resistance,single_yellow_resistance_sweep,pic-26,baseline

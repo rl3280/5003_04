@@ -1,0 +1,37 @@
+{
+  "configuration_id": "pic-16",
+  "cells": {
+    "top_left": "battery",
+    "top_right": "led",
+    "bottom_left": "resistor",
+    "bottom_right": "bent_wire"
+  },
+  "led": {
+    "lit": true,
+    "light_color": "yellow"
+  },
+  "led_glow": {
+    "lit": true,
+    "glows": [
+      {
+        "center_xy": [
+          317,
+          137
+        ],
+        "radius_px": 32.7,
+        "radius_fraction_of_image_width": 0.07,
+        "color": "orange",
+        "mean_rgb": [
+          235,
+          185,
+          97
+        ]
+      }
+    ],
+    "image_size": [
+      466,
+      447
+    ],
+    "method": "script: bright (>=200) and colored (chroma>=60) region, holes filled"
+  }
+}

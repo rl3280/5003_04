@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+  background: #f3f1eb;
+  color: #242424;
+}
+
+body {
+  box-sizing: border-box;
+  display: grid;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem;
+  place-items: center;
+}
+
+main {
+  width: min(100%, 36rem);
+  padding: 2rem;
+  border: 1px solid #d6d1c5;
+  border-radius: 1rem;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 0.75rem 2rem #24242412;
+}
+
+
+
+.tile-stage {
+  display: grid;
+  min-height: 16rem;
+  margin: 1.5rem 0;
+  place-items: center;
+}
+
+#tile {
+  width: min(100%, 14rem);
+  height: auto;
+  transition: transform 180ms ease-in-out;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+button {
+  flex: 1 1 12rem;
+  min-height: 2.75rem;
+  padding: 0.65rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  background: #294d3a;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d392a;
+}
+
+button:focus-visible {
+  outline: 3px solid #d18b24;
+  outline-offset: 3px;
+}
+
+.debug-panel {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.debug-panel h2 {
+  font-size: 1.1rem;
+}
+
+#function-values {
+  overflow-x: auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #f3f1eb;
+  font-size: 0.85rem;
+}

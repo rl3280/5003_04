@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bent Wire Tile</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      
+      <div class="tile-stage">
+        <img id="tile" src="../svg/bent_wire.svg" alt="Bent wire tile">
+      </div>
+      <div class="controls" aria-label="Tile rotation controls">
+        <button id="rotate-counterclockwise" type="button">Rotate counterclockwise</button>
+        <button id="rotate-clockwise" type="button">Rotate clockwise</button>
+      </div>
+      <section class="debug-panel" aria-live="polite">
+        <h2>Values inside updateTile()</h2>
+        <p>Click a button to see the values used for each edge.</p>
+        <pre id="function-values"></pre>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

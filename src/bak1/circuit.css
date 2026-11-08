@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+  background: #f3f1eb;
+  color: #242424;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: min(100%, 52rem);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+h1 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+main > p {
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: min(100%, 18rem);
+  margin: auto;
+  gap: 0.5rem;
+  align-self: center;
+}
+
+.board-slot {
+  display: grid;
+  position: relative;
+  min-width: 0;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 2px dashed #b6b0a5;
+  border-radius: 0.5rem;
+  background: #e9e6de;
+}
+
+.board-slot.drag-over {
+  border-color: #294d3a;
+  background: #dce8df;
+}
+
+.board-slot.occupied {
+  border-style: solid;
+  border-color: #d6d1c5;
+  background: #fff;
+}
+
+.board-slot.occupied .slot-hint {
+  display: none;
+}
+
+.slot-rotation-controls {
+  position: absolute;
+  z-index: 1;
+  top: 0.25rem;
+  right: 0.25rem;
+  left: 0.25rem;
+  display: none;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.board-slot.occupied .slot-rotation-controls {
+  display: flex;
+}
+
+.rotate-button {
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  place-items: center;
+  border: 1px solid #b6b0a5;
+  border-radius: 0.35rem;
+  background: #fff;
+  color: #242424;
+  font: inherit;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.rotate-button svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
+.rotate-button:hover {
+  background: #dce8df;
+}
+
+.rotate-button:focus-visible {
+  outline: 3px solid #d18b24;
+  outline-offset: 2px;
+}
+
+.board-slot .tile {
+  width: 100%;
+}
+
+.slot-hint {
+  padding: 0.5rem;
+  color: #68645c;
+  text-align: center;
+}
+
+.tile-tray {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border: 1px solid #d6d1c5;
+  border-radius: 0.75rem;
+  background: #fff;
+}
+
+.tile {
+  display: flex;
+  flex: 0 1 6rem;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  padding: 0.35rem;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  background: #fff;
+  cursor: grab;
+  user-select: none;
+}
+
+.tile img {
+  display: block;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  transition: transform 180ms ease-in-out;
+}
+
+.tile span {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.tile:active {
+  cursor: grabbing;
+}
+
+.tile.dragging {
+  opacity: 0.45;
+}

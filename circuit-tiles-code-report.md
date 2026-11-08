@@ -2,7 +2,7 @@
 
 This report describes how the circuit-tile app tracks state, responds to user
 actions, and decides whether to light the LED. The code examples come from
-[circuit.js](./src/circuit.js) and [circuit.html](./src/circuit.html).
+[circuit.js](./src/circuit.js) and [index.html](./src/index.html).
 
 ## 1. State variables
 
@@ -81,7 +81,7 @@ draggable in the HTML:
 
 ```html
 <div class="tile" id="battery" data-tile="battery" draggable="true" aria-label="Battery tile">
-  <img src="../svg/battery.svg" alt="">
+  <img src="svg/battery.svg" alt="">
   <span>Battery</span>
 </div>
 ```

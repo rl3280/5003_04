@@ -1,0 +1,1 @@
+{ "configuration_id": "pic-15", "cells": { "top_left": "led", "top_right": "bent_wire", "bottom_left": "resistor", "bottom_right": "bent_wire" }, "led": { "lit": true, "light_color": "green" } }

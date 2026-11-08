@@ -267,3 +267,41 @@ RULES: No placeholder comments, no TODOs, no extra prose.
 - Use a fresh Continue chat for each stage. Context carry-over degrades small models.
 - Keep `temperature: 0` for reproducibility.
 - Per the README, add a short reflection on where the AI helped or confused you.
+
+CONFIGURATION_ID: pic-07
+
+ROLE: Visual extractor for a circuit image. Output JSON only. No prose or markdown fences.
+
+CONTEXT: The attached files include annotations.csv and one circuit image.
+
+TASK:
+1. Find the unique row in annotations.csv whose configuration_id exactly matches CONFIGURATION_ID above. The configuration_id is the first column.
+2. Use that row and the attached image to produce exactly one JSON object with exactly these keys:
+{
+ "configuration_id": string,
+ "tiles": [ {"type": "battery|led|resistor|bent_wire|straight_wire|branch",
+             "color": string|null, "ohms": number|null,
+             "orientation": "0|90|180|270|null", "flipped": true|false|null} ],
+ "connections": [ [tile_index, tile_index] ],
+ "topology_seen": "single|series|parallel",
+ "loop_closed": true|false,
+ "led_states": {"green": "off|low|medium-low|medium|medium-high|high|not_present",
+                "yellow": "off|low|medium-low|medium|medium-high|high|not_present"},
+ "polarity_ok": true|false|null,
+ "electron_overlay_visible": true|false,
+ "csv_agreement": true|false,
+ "discrepancies": [string]
+}
+
+RULES:
+1. Copy configuration_id from the matching CSV row.
+2. Use only what is visible in the image or stated in that row. Do not guess missing values.
+3. Verify topology from the image. Parallel requires two distinct paths sharing the same source terminals; do not infer it from tiles merely being side by side.
+4. Include every identifiable circuit tile. Do not treat handwriting, arrows, or markings as tiles.
+5. Use zero-based tile indexes in "connections". Include only tile pairs that visibly touch; do not infer connections from proximity alone.
+6. Set loop_closed=true only if visible connections complete the circuit. Set polarity_ok=false if either LED is visibly reversed relative to the battery; use null if polarity cannot be determined.
+7. Use only the listed brightness values. Use "not_present" if an LED is absent.
+8. Compare the image with the matching CSV row. If they disagree, set csv_agreement=false and describe each mismatch in discrepancies; otherwise set it to true.
+9. If a value cannot be determined, use null where allowed. Never invent a tile, connection, or behavior.
+10. If no unique matching CSV row exists, output exactly: {"error":"No unique matching configuration_id found in annotations.csv"}
+11. Do not add keys. Do not explain.

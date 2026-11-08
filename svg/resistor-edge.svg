@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="144px" height="144px" viewBox="0 0 144 144" enable-background="new 0 0 144 144" xml:space="preserve">
+<g id="_0">
+	<path fill="none" stroke="#020202" stroke-width="0.0762" stroke-linejoin="bevel" stroke-miterlimit="2.6131" d="M4192.904,4110
+		c0-1.174-0.951-2.126-2.125-2.126s-2.127,0.952-2.127,2.126s0.953,2.126,2.127,2.126S4192.904,4111.174,4192.904,4110z"/>
+	<path fill="none" stroke="#020202" stroke-width="0.0762" stroke-linejoin="bevel" stroke-miterlimit="2.6131" d="M4157.348,4110
+		c0-1.174-0.953-2.126-2.127-2.126s-2.125,0.952-2.125,2.126s0.951,2.126,2.125,2.126S4157.348,4111.174,4157.348,4110z"/>
+</g>
+<image overflow="visible" enable-background="new    " width="641" height="559" xlink:href="../img/parallel__green-10000ohm__yellow-1000ohm-current.jpg"  transform="matrix(1 0 0 1 -4105 -4038)">
+</image>
+<polygon fill="#C9992D" points="4117.25,4062.125 4117.25,4165.625 4221.875,4165.625 4221.875,4167.875 4115,4167.875 
+	4115,4062.125 "/>
+<polygon fill="#C9992D" points="4228.625,4156.75 4228.625,4053.25 4124,4053.25 4124,4051 4230.875,4051 4230.875,4156.75 "/>
+<text transform="matrix(1 0 0 1 4168.4375 4047.75)" fill="#010101" font-family="'MyriadPro-Regular'" font-size="12">A</text>
+<text transform="matrix(1 0 0 1 4234.25 4110)" fill="#010101" font-family="'MyriadPro-Regular'" font-size="12">A</text>
+<text transform="matrix(1 0 0 1 4103.9375 4110)" fill="#010101" font-family="'MyriadPro-Regular'" font-size="12">B</text>
+<text transform="matrix(1 0 0 1 4172.6426 4177.5)" fill="#010101" font-family="'MyriadPro-Regular'" font-size="12">B</text>
+<g>
+	<defs>
+		
+			<rect id="SVGID_1_" x="4164.263" y="4090.625" transform="matrix(-0.0076 -1 1 -0.0076 93.9902 8313.7305)" width="16.343" height="39.2"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<polyline clip-path="url(#SVGID_2_)" fill="none" stroke="#231F20" stroke-miterlimit="10" points="4188.768,4110.083 
+		4183.868,4110.126 4180.645,4115.055 4177.291,4105.283 4174.11,4115.111 4170.758,4105.34 4167.578,4115.167 4164.225,4105.398 
+		4161.002,4110.325 4156.102,4110.368 	"/>
+</g>
+<rect x="4119.643" y="4056.017" fill="none" stroke="#020202" stroke-linejoin="bevel" stroke-miterlimit="2.6131" width="107.715" height="107.715"/>
+<polygon fill="#C9992D" points="15.75,24.625 15.75,128.125 120.375,128.125 120.375,130.375 13.5,130.375 13.5,24.625 "/>
+<polygon fill="#C9992D" points="127.125,119.25 127.125,15.75 22.5,15.75 22.5,13.5 129.375,13.5 129.375,119.25 "/>
+<text transform="matrix(1 0 0 1 66.9375 10.25)" font-family="'MyriadPro-Regular'" font-size="12">A</text>
+<rect x="18.142" y="18.517" fill="none" stroke="#000000" stroke-linejoin="bevel" stroke-miterlimit="2.6131" width="107.715" height="107.715"/>
+<text transform="matrix(1 0 0 1 132.75 72.5)" font-family="'MyriadPro-Regular'" font-size="12">A</text>
+<text transform="matrix(1 0 0 1 2.4375 72.5)" font-family="'MyriadPro-Regular'" font-size="12">B</text>
+<text transform="matrix(1 0 0 1 71.1426 140)" font-family="'MyriadPro-Regular'" font-size="12">B</text>
+<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="87.476,68.662 82.576,68.705 79.353,73.633 75.999,63.862 
+	72.818,73.689 69.466,63.918 66.286,73.746 62.933,63.977 59.71,68.904 54.81,68.947 "/>
+<circle fill="none" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" cx="54.809" cy="68.869" r="1.934"/>
+<circle fill="none" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" cx="87.475" cy="68.522" r="1.934"/>
+</svg>

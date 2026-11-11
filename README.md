@@ -15,7 +15,7 @@ I created 4 different tiles to represent a circuit:
 
 To begin this "Modeling an Interactive Appliance" activity, I took photos of the wooden tiles. /img
 
-My initial thought was to try again the Qwen/Llama procedure I tried in /5003-02.  I made an annotation.csv of the .jpgs. /data
+My initial thought was to try again the Qwen/Llama procedure I tried in rl3280/5003-02.  So I made an annotation.csv of the .jpgs. /data
 
 But, as the /chat shows, again no success generating a state machine.  But looking at the .json code I did see that the orientation of the edges of the tiles, and the user rotating the tiles were the primary rules I had to encode. /out/qwen
 

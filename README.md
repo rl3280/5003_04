@@ -21,8 +21,11 @@ But, as the /chat shows, again no success generating a state machine.  But looki
 
 So I made svgs of the Battery, LED, resistor and wire tiles. /svg
 
-The code-report documents the variables/states/transitions/control flow.
+One thing that worked for me in 5003-02 was the Mingei Crafts Ontology (CrO) and Mingei Online Platform (MOP) Activity Diagramming Hammering
+https://github.com/rl3280/5003_02/blob/main/src/2_mingei-hammering-activity-diagram.md
 
-The activity-diagram documents the 
+The activity-diagram generated for this assignment looks pretty good here as well. 
+
+The code-report documents the variables/states/transitions/control flow.
 
 I didn't master or even comprehend most of the JS code.  But I was able to go back and forth with CoPilot watching the svg tiles rotate back and forth, knowing intimately when the LED should go on, based on my working with the wood tiles back in the spring.  And having a basic vocabulary about computational thinking, I believe, kept the AI from drifting out of my sandbox.

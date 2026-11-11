@@ -1,4 +1,7 @@
-Spring 2026 I took Dr. Blikstein’s “Beyond Bits and Atoms: Fabrication and Physical Computing for Education.”  I created “Circuit Tiles,” wooden tile manipulatives to help apprentices learn:
+Spring 2026 I took Dr. Blikstein’s “Beyond Bits and Atoms: Fabrication and Physical Computing for Education.”  
+https://bba.tltlab.org/syllabus/
+
+I created “Circuit Tiles,” wooden tile manipulatives to help apprentices learn:
 
 - Circuit Polarity
 - Single/Parallel Circuits

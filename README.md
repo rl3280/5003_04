@@ -1,46 +1,25 @@
-The Activity Parts
-1. AI Learning
+Spring 2026 I took Dr. Blikstein’s “Beyond Bits and Atoms: Fabrication and Physical Computing for Education.”  I created “Circuit Tiles,” wooden tile manipulatives to help apprentices learn:
 
-Use AI tools to support your process:
+- Circuit Polarity
+- Single/Parallel Circuits
+- Ohm’s Law
 
-    Ask AI for help turning your interaction ideas into variables or code
+I created 4 different tiles to represent a circuit:
+- Battery
+- LED
+- Resistor
+- Wire
 
-    Use it to troubleshoot or understand how state changes work
+To begin this "Modeling an Interactive Appliance" activity, I took photos of the wooden tiles. /img
 
-    Reflect on how AI supported (or confused) your thinking and include this reflection in your writeup.
+My initial thought was to try again the Qwen/Llama procedure I tried in /5003-02.  I made an annotation.csv of the .jpgs. /data
 
-2. Design
+But, as the /chat shows, again no success generating a state machine.  But looking at the .json code I did see that the orientation of the edges of the tiles, and the user rotating the tiles were the primary rules I had to encode. /out/qwen
 
-Pick a physical or digital appliance you use — something with buttons, settings, or behavior. Example:
-Toaster, Coffee Machine, Lamp, Game Controller, Hair Dryer, Remote Control
+So I made svgs of the Battery, LED, resistor and wire tiles. /svg
 
-    Include an image of your appliance in your Google Doc
+The code-report documents the variables/states/transitions/control flow.
 
-    Describe:
+The activity-diagram documents the 
 
-        What states does the appliance have?
-
-        What inputs or actions cause state changes?
-
-        What matters about this appliance that you want to simulate?
-
-    Focus on the logic, not the visuals. Think in terms of states and transitions:
-    “When the power button is pressed and mode = ‘heat’, the appliance turns on and temp increases.”
-
-3. Code
-
-Use HTML, CSS, and JavaScript to build a rough interactive model of your appliance.
-
-Your Code Should Include:
-
-    Variables that track state (e.g., let isOn = false;)
-
-    At least one form element for user interaction (<button>, <input>, <select>, etc.)
-
-    Event handling to change state (Note on this below...)
-
-    Visual feedback (e.g., change text, image, or style) when state changes
-
-    Use of control flow (if, else if, etc.) to model different behaviors
-
-    Don’t worry if the code isn’t perfect. The goal is to express your idea and test logic. Also - we haven't formally covered "events" yet but we will. You can describe interactions in plain language (e.g., “When user presses this button, state changes from ‘cold’ to ‘warm’”) — then use AI to help turn that into working code. Then after your application works (hopefully!) ask GPT to explain the "events" concept and how that relates if you want to get a head start on this future topic.
+I didn't master or even comprehend most of the JS code.  But I was able to go back and forth with CoPilot watching the svg tiles rotate back and forth, knowing intimately when the LED should go on, based on my working with the wood tiles back in the spring.  And having a basic vocabulary about computational thinking, I believe, kept the AI from drifting out of my sandbox.
